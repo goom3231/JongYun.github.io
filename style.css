@@ -1,0 +1,68 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #000;       /* 검은 배경 */
+    color: #00ff00;               /* 초록색 글씨 */
+    text-align: center;
+  }
+  
+  header {
+    border-bottom: 2px solid #00ff00;
+    padding: 1rem 0;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #00ff00;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #00ff00;
+  }
+  
+  nav a.active {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  main h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #00ff00;
+  }
+  
+  main a {
+    color: #00ff00;
+    text-decoration: underline;
+  }
+  
+  form input,
+  form textarea {
+    background-color: #111;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  form button {
+    background-color
+  
